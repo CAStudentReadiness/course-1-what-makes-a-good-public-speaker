@@ -4,14 +4,16 @@ description: ' In this course, we''ll take a look at examples of what makes a go
 template:
   repo: course-1-what-makes-a-good-public-speaker-template
   name: course-1-what-makes-a-good-public-speaker
+  description: 'Repository for Course #1 - What makes a good public speaker?'
 before:
   - type: createIssue
     title: Welcome!
     body: new-issue.md
 steps:
-  - title: First step
-    description: The first step in your course
-    event: issues.assigned
+  - title: '⌨️ Activity: Close Issue'
+    description: Close this issue to get started!
+    event: issues.closed
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
+        action_id: '0'
